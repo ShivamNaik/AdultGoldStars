@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{F834839F-A814-4CF6-88F2-34276D6ACA58}|Default">
+  <MonoDevelop.Ide.ItemProperties.AdultGoldStars PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6825AFD8-8F1A-43A3-99E3-9A07D3A189C4" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdultGoldStars/LaunchScreen.storyboard">
+    <Files>
+      <File FileName="AdultGoldStars/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="AdultGoldStars/Main.storyboard" />
+      <File FileName="AdultGoldStars/LaunchScreen.storyboard" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
