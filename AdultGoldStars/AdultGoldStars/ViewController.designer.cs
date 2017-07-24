@@ -13,8 +13,20 @@ namespace AdultGoldStars
     [Register ("ViewController")]
     partial class ViewController
     {
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton FacebookLogin { get; set; }
+
+        [Action ("FacebookLogin_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void FacebookLogin_TouchUpInside (UIKit.UIButton sender);
+
         void ReleaseDesignerOutlets ()
         {
+            if (FacebookLogin != null) {
+                FacebookLogin.Dispose ();
+                FacebookLogin = null;
+            }
         }
     }
 }

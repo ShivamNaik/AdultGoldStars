@@ -21,6 +21,8 @@
 	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/mtouch-symbols.list \
 	--dsym=no \
 	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.Dialog-1.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
@@ -29,7 +31,11 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/Components/xamarin.auth-1.2.3.1/lib/ios-unified/Xamarin.Auth.iOS.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/Components/xamarin.auth-1.2.3.1/lib/ios-unified/Xamarin.Auth.iOS.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/AdultGoldStars.exe \
