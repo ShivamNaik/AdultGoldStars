@@ -19,18 +19,46 @@
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="0.4" alpha="1"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="4" translatesAutoresizingMaskIntoConstraints="NO" image="star.png" misplaced="YES">
-                                <rect key="frame" x="162" y="184" width="275" height="233"/>
+                                <rect key="frame" x="0.0" y="-26" width="414" height="789"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.95" height="0.85"/>
+                                <constraints>
+                                    <constraint id="22" firstAttribute="width" constant="414"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="22"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="22"/>
+                                    </mask>
+                                </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adult Gold Stars" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="222" y="282" width="157" height="37"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
+                                <rect key="frame" x="116" y="308" width="182" height="37"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <constraints>
                             <constraint id="5" firstItem="4" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width"/>
+                            <constraint id="20" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="4" secondAttribute="trailing"/>
+                            <constraint id="21" firstItem="Ze5-6b-2t3" firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="-27"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="20"/>
+                                <exclude reference="21"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="20"/>
+                                <include reference="21"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections/>
                 </viewController>
@@ -41,6 +69,8 @@
     </scenes>
     <resources>
         <image name="star.png" width="830" height="789"/>
-        <image name="adultgoldstars.png" width="312" height="100"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina55"/>
+    </simulatedMetricsContainer>
 </document>

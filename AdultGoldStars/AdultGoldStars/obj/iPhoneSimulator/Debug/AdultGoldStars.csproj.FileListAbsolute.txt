@@ -1,0 +1,10 @@
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/AdultGoldStars.exe
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/AdultGoldStars.pdb
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/star.png
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/AdultGoldStars.csproj.CoreCompileInputs.cache
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/AdultGoldStars.exe
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/obj/iPhoneSimulator/Debug/AdultGoldStars.pdb
