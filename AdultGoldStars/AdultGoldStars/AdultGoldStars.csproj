@@ -147,9 +147,9 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="StarPickerController.cs" />
-    <Compile Include="StarPickerController.designer.cs">
-      <DependentUpon>StarPickerController.cs</DependentUpon>
+    <Compile Include="StarPicker_.cs" />
+    <Compile Include="StarPicker_.designer.cs">
+      <DependentUpon>StarPicker_.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

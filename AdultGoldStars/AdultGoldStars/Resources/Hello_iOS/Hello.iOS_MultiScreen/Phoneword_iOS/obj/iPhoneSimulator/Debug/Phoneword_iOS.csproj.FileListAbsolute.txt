@@ -1,0 +1,9 @@
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/bin/iPhoneSimulator/Debug/Phoneword_iOS.exe
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/bin/iPhoneSimulator/Debug/Phoneword_iOS.pdb
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_PartialAppManifest.items
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/actool/_BundleResourceWithLogicalName.items
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3.1/optimized/
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/obj/iPhoneSimulator/Debug/Phoneword_iOS.csproj.CoreCompileInputs.cache
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/obj/iPhoneSimulator/Debug/Phoneword_iOS.exe
+/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/Resources/Hello_iOS/Hello.iOS_MultiScreen/Phoneword_iOS/obj/iPhoneSimulator/Debug/Phoneword_iOS.pdb
