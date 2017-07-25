@@ -3,6 +3,8 @@
 using UIKit;
 using Xamarin.Auth;
 using System.Json;
+using System.Collections.Generic;
+
 
 namespace AdultGoldStars
 {
@@ -50,10 +52,9 @@ namespace AdultGoldStars
 				//CoverImage.Image = UIImage.LoadFromData(NSData.FromUrl(new NSUrl(cover)));
 				// Launches a new instance of CallHistoryController
 				DismissViewController(true, null);
-         
-				StarPicker starPicker = this.Storyboard.InstantiateViewController("StarPicker") as StarPicker;
+
+                StarPicker starPicker = this.Storyboard.InstantiateViewController("StarPicker") as StarPicker;
                 PresentViewController(starPicker, true, null);
-              
 			}
 
 			else
