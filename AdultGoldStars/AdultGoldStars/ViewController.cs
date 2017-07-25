@@ -3,7 +3,7 @@
 using UIKit;
 using Xamarin.Auth;
 using System.Json;
-
+             
 namespace AdultGoldStars
 {
     public partial class ViewController : UIViewController
@@ -29,7 +29,6 @@ namespace AdultGoldStars
 
 				//invoke the method that display the app's page
 				//that you want to present to user
-			//	App.SuccessfulLoginAction.Invoke();
 		
 				//NameLabel.Text += name;
 				//IdLabel.Text += id;
@@ -37,6 +36,10 @@ namespace AdultGoldStars
 				//CoverImage.Image = UIImage.LoadFromData(NSData.FromUrl(new NSUrl(cover)));
 			}
 
+            else
+            {
+				DisplayAlert("Alert", "You have been alerted", "OK");
+			}
 
 			DismissViewController(true, null);
         }
@@ -48,7 +51,7 @@ namespace AdultGoldStars
 
             OAuth2Authenticator auth = new OAuth2Authenticator
             (
-                clientId: "",
+                clientId: "455704051475923",
                 scope: "",
                 authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),
                 redirectUrl: new Uri("http://www.facebook.com/connect/login_success.html"));

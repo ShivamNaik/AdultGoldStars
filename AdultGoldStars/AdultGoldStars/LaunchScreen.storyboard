@@ -14,51 +14,20 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="0.4" alpha="1"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="4" translatesAutoresizingMaskIntoConstraints="NO" image="star.png" misplaced="YES">
-                                <rect key="frame" x="0.0" y="-26" width="414" height="789"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.95" height="0.85"/>
-                                <constraints>
-                                    <constraint id="22" firstAttribute="width" constant="414"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="22"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="22"/>
-                                    </mask>
-                                </variation>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="26" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="star.png">
+                                <rect key="frame" x="60" y="222" width="294" height="292"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adult Gold Stars" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="116" y="308" width="182" height="37"/>
+                                <rect key="frame" x="116" y="350" width="182" height="37"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <constraints>
-                            <constraint id="5" firstItem="4" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width"/>
-                            <constraint id="20" firstItem="Ze5-6b-2t3" firstAttribute="trailing" secondItem="4" secondAttribute="trailing"/>
-                            <constraint id="21" firstItem="Ze5-6b-2t3" firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="-27"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="20"/>
-                                <exclude reference="21"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="constraints">
-                                <include reference="20"/>
-                                <include reference="21"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections/>
                 </viewController>
@@ -69,6 +38,7 @@
     </scenes>
     <resources>
         <image name="star.png" width="830" height="789"/>
+        <image name="facebook.png" width="988" height="160"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination" type="retina55"/>
