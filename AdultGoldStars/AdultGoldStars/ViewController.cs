@@ -3,7 +3,7 @@
 using UIKit;
 using Xamarin.Auth;
 using System.Json;
-             
+
 namespace AdultGoldStars
 {
     public partial class ViewController : UIViewController
@@ -38,7 +38,7 @@ namespace AdultGoldStars
 
             else
             {
-				DisplayAlert("Alert", "You have been alerted", "OK");
+				//DisplayAlert("Alert", "You have been alerted", "OK");
 			}
 
 			DismissViewController(true, null);
