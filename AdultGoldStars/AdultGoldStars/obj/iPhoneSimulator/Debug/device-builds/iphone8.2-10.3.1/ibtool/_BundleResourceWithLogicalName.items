@@ -16,8 +16,8 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool-link/LaunchScreen.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool-link/Main.storyboardc/289-view-290.nib">
-      <LogicalName>Main.storyboardc/289-view-290.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool-link/Main.storyboardc/344-view-372.nib">
+      <LogicalName>Main.storyboardc/344-view-372.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
@@ -31,8 +31,8 @@
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool-link/Main.storyboardc/StarPicker.nib">
-      <LogicalName>Main.storyboardc/StarPicker.nib</LogicalName>
+    <_BundleResourceWithLogicalName Include="obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool-link/Main.storyboardc/MainMenu.nib">
+      <LogicalName>Main.storyboardc/MainMenu.nib</LogicalName>
       <Optimize>false</Optimize>
       <OriginalItemSpec>obj/iPhoneSimulator/Debug/device-builds/iphone8.2-10.3.1/ibtool-link/Main.storyboardc</OriginalItemSpec>
     </_BundleResourceWithLogicalName>

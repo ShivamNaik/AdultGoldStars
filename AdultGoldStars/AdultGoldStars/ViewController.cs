@@ -53,8 +53,8 @@ namespace AdultGoldStars
 				// Launches a new instance of CallHistoryController
 				DismissViewController(true, null);
 
-                StarPicker starPicker = this.Storyboard.InstantiateViewController("StarPicker") as StarPicker;
-                PresentViewController(starPicker, true, null);
+                MainMenu mainMenu = this.Storyboard.InstantiateViewController("MainMenu") as MainMenu;
+                PresentViewController(mainMenu, true, null);
 			}
 
 			else

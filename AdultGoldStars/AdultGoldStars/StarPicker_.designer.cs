@@ -14,5 +14,8 @@ namespace AdultGoldStars
     [Register ("StarPicker")]
     partial class StarPicker
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }
