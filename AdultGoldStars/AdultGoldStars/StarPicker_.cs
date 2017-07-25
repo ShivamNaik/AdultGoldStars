@@ -27,7 +27,7 @@ namespace AdultGoldStars
 
 			public override nint RowsInSection(UITableView tableView, nint section)
 			{
-				return 2;
+				return 0;
 			}
 
 			public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
