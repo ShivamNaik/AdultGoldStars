@@ -79,7 +79,7 @@
                         <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="0.4" alpha="1"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="373" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="373" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" customClass="CreateStar">
                                 <rect key="frame" x="138" y="341" width="138" height="42"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
                                 <color key="backgroundColor" colorSpace="calibratedRGB" red="1" green="0.8" blue="0" alpha="1"/>
@@ -88,7 +88,8 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="UIButton373_TouchUpInside:" destination="344" id="376" eventType="touchUpInside"/>
+                                    <action selector="CreateStar373_TouchUpInside:" destination="344" id="429" eventType="touchUpInside"/>
+                                    <segue id="473" destination="434" kind="show"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="374" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
@@ -104,10 +105,38 @@
                             </button>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="CreateStarName" destination="373" id="name-outlet-373"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="346" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="767" y="-260"/>
+        </scene>
+        <scene sceneID="433">
+            <objects>
+                <viewController id="434" sceneMemberID="viewController" customClass="TakeTextForStar" storyboardIdentifier="TakeTextForStarID">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="431"/>
+                        <viewControllerLayoutGuide type="bottom" id="432"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="435">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0" green="0" blue="0.32156862745098042" alpha="1"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter text for your star" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="475" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="93" y="303" width="228" height="21"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <color key="textColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="436" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1454" y="-262"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

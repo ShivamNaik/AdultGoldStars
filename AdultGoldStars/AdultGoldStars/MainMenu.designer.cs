@@ -14,9 +14,13 @@ namespace AdultGoldStars
     [Register ("MainMenu")]
     partial class MainMenu
     {
-        [Action ("UIButton373_TouchUpInside:")]
+        [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton373_TouchUpInside (UIKit.UIButton sender);
+        AdultGoldStars.CreateStar CreateStarName { get; set; }
+
+        [Action ("CreateStar373_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void CreateStar373_TouchUpInside (AdultGoldStars.CreateStar sender);
 
         [Action ("UIButton374_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -24,6 +28,10 @@ namespace AdultGoldStars
 
         void ReleaseDesignerOutlets ()
         {
+            if (CreateStarName != null) {
+                CreateStarName.Dispose ();
+                CreateStarName = null;
+            }
         }
     }
 }

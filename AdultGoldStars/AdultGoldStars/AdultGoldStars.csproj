@@ -151,6 +151,14 @@
     <Compile Include="MainMenu.designer.cs">
       <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="CreateStar.cs" />
+    <Compile Include="CreateStar.designer.cs">
+      <DependentUpon>CreateStar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeTextForStar.cs" />
+    <Compile Include="TakeTextForStar.designer.cs">
+      <DependentUpon>TakeTextForStar.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\star.png" />
