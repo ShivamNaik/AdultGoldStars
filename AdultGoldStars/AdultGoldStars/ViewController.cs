@@ -38,6 +38,9 @@ namespace AdultGoldStars
 
         partial void FacebookLogin_TouchUpInside(UIButton sender)
         {
+            // TO DO : add facebook login picture to login
+
+
             OAuth2Authenticator auth = new OAuth2Authenticator
             (
                 clientId: "insertidtowork",
