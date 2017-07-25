@@ -25,15 +25,15 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PCLCrypto.2.0.147/lib/xamarinios10/PCLCrypto.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PCLCrypto.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PInvoke.BCrypt.0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.BCrypt.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PInvoke.Kernel32.0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Kernel32.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PInvoke.NCrypt.0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PInvoke.Windows.Core.0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -43,9 +43,9 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/Validation.2.2.8/lib/dotnet/Validation.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/Validation.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/Xamarin.Auth.1.5.0.3/lib/Xamarin.iOS10/Xamarin.Auth.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/Xamarin.Auth.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
@@ -315,19 +315,19 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PCLCrypto.2.0.147/lib/xamarinios10/PCLCrypto.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PCLCrypto.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PInvoke.BCrypt.0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.BCrypt.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PInvoke.BCrypt.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PInvoke.Kernel32.0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Kernel32.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PInvoke.Kernel32.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PInvoke.NCrypt.0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.NCrypt.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PInvoke.NCrypt.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/PInvoke.Windows.Core.0.3.2/lib/portable-net45+win+wpa81+MonoAndroid10+xamarinios10+MonoTouch10/PInvoke.Windows.Core.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/PInvoke.Windows.Core.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/Validation.2.2.8/lib/dotnet/Validation.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/Validation.dll \
 	-r \
-	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/packages/Xamarin.Auth.1.5.0.3/lib/Xamarin.iOS10/Xamarin.Auth.dll \
+	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/Xamarin.Auth.dll \
 	--target-framework \
 	"Xamarin.iOS,v1.0" \
 	/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/bin/iPhoneSimulator/Debug/AdultGoldStars.exe \

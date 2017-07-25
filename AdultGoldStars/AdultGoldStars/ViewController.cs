@@ -27,11 +27,16 @@ namespace AdultGoldStars
 				var picture = fbUser["picture"]["data"]["url"];
 				var cover = fbUser["cover"]["source"];
 
+				//invoke the method that display the app's page
+				//that you want to present to user
+			//	App.SuccessfulLoginAction.Invoke();
+		
 				//NameLabel.Text += name;
 				//IdLabel.Text += id;
 				//PictureImage.Image = UIImage.LoadFromData(NSData.FromUrl(new NSUrl(picture)));
 				//CoverImage.Image = UIImage.LoadFromData(NSData.FromUrl(new NSUrl(cover)));
 			}
+
 
 			DismissViewController(true, null);
         }
@@ -43,7 +48,7 @@ namespace AdultGoldStars
 
             OAuth2Authenticator auth = new OAuth2Authenticator
             (
-                clientId: "insertidtowork",
+                clientId: "455704051475923",
                 scope: "",
                 authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),
                 redirectUrl: new Uri("http://www.facebook.com/connect/login_success.html"));
