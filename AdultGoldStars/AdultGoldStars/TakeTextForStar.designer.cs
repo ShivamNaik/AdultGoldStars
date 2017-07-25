@@ -14,5 +14,8 @@ namespace AdultGoldStars
     [Register ("TakeTextForStar")]
     partial class TakeTextForStar
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

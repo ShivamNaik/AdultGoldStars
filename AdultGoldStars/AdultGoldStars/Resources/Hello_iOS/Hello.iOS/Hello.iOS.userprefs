@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{4279435A-D323-44F1-87D8-98E436909EBF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword_iOS/ViewController.cs">
+    <Files>
+      <File FileName="Phoneword_iOS/Main.storyboard" />
+      <File FileName="Phoneword_iOS/PhoneTranslator.cs" Line="21" Column="25" />
+      <File FileName="Phoneword_iOS/Main.cs" Line="16" Column="1" />
+      <File FileName="Phoneword_iOS/AppDelegate.cs" Line="15" Column="6" />
+      <File FileName="Phoneword_iOS/ViewController.cs" Line="37" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hello.iOS" expanded="True">
+            <Node name="Phoneword_iOS" expanded="True">
+              <Node name="ViewController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Phoneword__iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6825AFD8-8F1A-43A3-99E3-9A07D3A189C4" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
