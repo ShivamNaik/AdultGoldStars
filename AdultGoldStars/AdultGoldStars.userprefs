@@ -1,16 +1,37 @@
 ﻿<Properties StartupConfiguration="{F834839F-A814-4CF6-88F2-34276D6ACA58}|Default">
-  <MonoDevelop.Ide.ItemProperties.AdultGoldStars PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.6825AFD8-8F1A-43A3-99E3-9A07D3A189C4" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/lib/msbuild/iOS/Xamarin.iOS.Common.targets">
+  <MonoDevelop.Ide.ItemProperties.AdultGoldStars PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E9EF2434-DD12-43FF-8C98-7476C6F6B6F7" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AdultGoldStars/LaunchScreen.storyboard">
     <Files>
-      <File FileName="AdultGoldStars/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="AdultGoldStars/ViewController.cs" Line="51" Column="43" />
       <File FileName="AdultGoldStars/Main.storyboard" />
+      <File FileName="AdultGoldStars/AppDelegate.cs" Line="58" Column="1" />
       <File FileName="AdultGoldStars/LaunchScreen.storyboard" />
-      <File FileName="../../../../../Library/Frameworks/Xamarin.iOS.framework/Versions/10.10.0.36/lib/msbuild/iOS/Xamarin.iOS.Common.targets" Line="471" Column="3" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AdultGoldStars" expanded="True">
+            <Node name="AdultGoldStars" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="LaunchScreen.storyboard" selected="True" />
+            </Node>
+          </Node>
+          <Node name="Xamarin.Auth.Sample.iOS" expanded="True">
+            <Node name="Xamarin.Auth Sample (iOS)" expanded="True">
+              <Node name="References" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/shivamnaik/Documents/adultgoldstars/AdultGoldStars/AdultGoldStars/ViewController.cs" relfile="AdultGoldStars/ViewController.cs" line="32" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

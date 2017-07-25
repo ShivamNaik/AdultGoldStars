@@ -48,7 +48,7 @@ namespace AdultGoldStars
 
             OAuth2Authenticator auth = new OAuth2Authenticator
             (
-                clientId: "455704051475923",
+                clientId: "",
                 scope: "",
                 authorizeUrl: new Uri("https://m.facebook.com/dialog/oauth/"),
                 redirectUrl: new Uri("http://www.facebook.com/connect/login_success.html"));
