@@ -18,19 +18,28 @@ namespace AdultGoldStars
         [GeneratedCode ("iOS Designer", "1.0")]
         AdultGoldStars.CreateStar CreateStarName { get; set; }
 
-        [Action ("CreateStar373_TouchUpInside:")]
+        [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void CreateStar373_TouchUpInside (AdultGoldStars.CreateStar sender);
+        UIKit.UIButton SendStarButton { get; set; }
 
-        [Action ("UIButton374_TouchUpInside:")]
+        [Action ("CreateStarName_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
-        partial void UIButton374_TouchUpInside (UIKit.UIButton sender);
+        partial void CreateStarName_TouchUpInside (AdultGoldStars.CreateStar sender);
+
+        [Action ("SendStarButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void SendStarButton_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
             if (CreateStarName != null) {
                 CreateStarName.Dispose ();
                 CreateStarName = null;
+            }
+
+            if (SendStarButton != null) {
+                SendStarButton.Dispose ();
+                SendStarButton = null;
             }
         }
     }

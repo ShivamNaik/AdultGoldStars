@@ -14,5 +14,8 @@ namespace AdultGoldStars
     [Register ("CreateStar")]
     partial class CreateStar
     {
+        void ReleaseDesignerOutlets ()
+        {
+        }
     }
 }

@@ -17,14 +17,14 @@ namespace AdultGoldStars
 			base.ViewDidLoad();
 
 
-			Save.TouchUpInside += (object sender, EventArgs e) =>
-			{
+			//Save.TouchUpInside += (object sender, EventArgs e) =>
+			//{
 				
 				// Dismiss the keyboard if text field was tapped
-				TakeTextForStarName.ResignFirstResponder();
+				//TakeTextForStarName.ResignFirstResponder();
 
 				
-			};
+			//};
 		}
     }
 }
